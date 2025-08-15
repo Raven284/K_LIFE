@@ -19,7 +19,7 @@ class News(Base):
     link = Column(Text, nullable = True, index = True)
     type = Column(Integer, nullable = True)
     push_date = Column(DateTime, nullable = True)
-    content = Column(DateTime)
+    content = Column(Text)
     source = Column(String(50), nullable = True)
 
 

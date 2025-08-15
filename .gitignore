@@ -205,3 +205,64 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ------------------------
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# 数据文件（防止上传真实数据）
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.db
+*.sqlite
+*.parquet
+*.feather
+*.h5
+*.npz
+*.pickle
+*.pkl
+
+# 模型文件
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.joblib
+
+# Jupyter Notebook 临时文件
+.ipynb_checkpoints/
+
+# 环境配置与密钥文件
+.env
+*.key
+*.pem
+*.crt
+credentials.json
+
+# 日志与临时文件
+*.log
+tmp/
+temp/
+
+# 编辑器/IDE 配置
+.vscode/
+.idea/
+
+# macOS / Windows 系统文件
+.DS_Store
+Thumbs.db
